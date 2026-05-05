@@ -7,15 +7,7 @@ const CITIES = [
   { timezone: "Asia/Tokyo",          label: "Japan",       flag: "🇯🇵" },
   { timezone: "Australia/Sydney",    label: "Australia",   flag: "🇦🇺" },
   { timezone: "Europe/Paris",        label: "France",      flag: "🇫🇷" },
-  { timezone: "Asia/Dubai",          label: "UAE",         flag: "🇦🇪" },
-  { timezone: "America/Los_Angeles", label: "USA (LA)",    flag: "🇺🇸" },
-  { timezone: "Asia/Shanghai",       label: "China",       flag: "🇨🇳" },
-  { timezone: "Africa/Cairo",        label: "Egypt",       flag: "🇪🇬" },
-  { timezone: "America/Sao_Paulo",   label: "Brazil",      flag: "🇧🇷" },
-  { timezone: "Europe/Berlin",       label: "Germany",     flag: "🇩🇪" },
-  { timezone: "Asia/Singapore",      label: "Singapore",   flag: "🇸🇬" },
-  { timezone: "America/Toronto",     label: "Canada",      flag: "🇨🇦" },
-  { timezone: "Asia/Karachi",        label: "Pakistan",    flag: "🇵🇰" },
+
 ];
 
 export default function SearchBar({ onAdd, existingCities }) {

@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 
 const features = [
-  { icon: "🕐", title: "Live Clocks", desc: "Every city card ticks every second showing accurate local time." },
-  { icon: "🌍", title: "5 Countries", desc: "India, USA, UK, Japan and Australia — add or remove any card." },
-  { icon: "🌗", title: "Dark / Light Mode", desc: "Toggle between dark and light theme using React Context API." },
-  { icon: "🔎", title: "Filter", desc: "Filter displayed cities by name in real-time." },
-  { icon: "⚠️", title: "Error Handling", desc: "Clear error messages if a city fails to load." },
-  { icon: "📱", title: "Responsive", desc: "Works on mobile, tablet and desktop screens." },
+  {  title: "Live Clocks", desc: "Every city card ticks every second showing accurate local time." },
+  {  title: "5 Countries", desc: "India, USA, UK, Japan and Australia — add or remove any card." },
+  {  title: "Dark / Light Mode", desc: "Toggle between dark and light theme using React Context API." },
+  {  title: "Filter", desc: "Filter displayed cities by name in real-time." },
+  {  title: "Error Handling", desc: "Clear error messages if a city fails to load." },
+  {  title: "Responsive", desc: "Works on mobile, tablet and desktop screens." },
 ];
 
 const techStack = [
-  { name: "React 19 + Vite", role: "Frontend" },
-  { name: "React Router v6", role: "Routing" },
-  { name: "Tailwind CSS v4", role: "Styling" },
+  { name: "React  + Vite", role: "Frontend" },
+  { name: "React Router ", role: "Routing" },
+  { name: "Tailwind CSS ", role: "Styling" },
   { name: "Axios", role: "API Calls" },
   { name: "Context API", role: "State Management" },
   { name: "WorldTimeAPI", role: "Time Data" },

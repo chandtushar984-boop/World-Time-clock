@@ -1,5 +1,3 @@
-// Using browser's built-in Intl API — no external API needed, always works
-
 const getUTCOffset = (timezone) => {
   try {
     const formatter = new Intl.DateTimeFormat("en-US", {

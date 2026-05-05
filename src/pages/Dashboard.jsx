@@ -43,8 +43,6 @@ export default function Dashboard() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-16">
-
-      {/* Hero */}
       <div className="text-center py-8">
         <h1 className="text-2xl font-bold mb-1" style={{ color: "var(--text)" }}>
           World Time Dashboard
@@ -53,8 +51,6 @@ export default function Dashboard() {
           Click a country below to add it to your dashboard
         </p>
       </div>
-
-      {/* City buttons */}
       <div className="rounded-2xl border p-5 mb-6"
         style={{ background: "var(--surface)", borderColor: "var(--border)" }}>
         <p className="text-xs font-semibold uppercase tracking-wider mb-3"
@@ -90,8 +86,6 @@ export default function Dashboard() {
           })}
         </div>
       </div>
-
-      {/* Error */}
       {error && (
         <div className="animate-shake rounded-xl border px-4 py-2.5 mb-4 text-sm"
           style={{ background: "rgba(229,62,62,0.08)", borderColor: "var(--error)", color: "var(--error)" }}>
@@ -99,10 +93,8 @@ export default function Dashboard() {
         </div>
       )}
 
-      {/* Loading spinner for the city being added */}
       {loadingTz && <LoadingSpinner label={`Adding ${CITIES.find(c => c.timezone === loadingTz)?.label}…`} />}
 
-      {/* Empty state */}
       {cities.length === 0 && !loadingTz && (
         <div className="text-center py-16">
           <p className="text-4xl mb-4">🌍</p>
@@ -111,8 +103,6 @@ export default function Dashboard() {
           </p>
         </div>
       )}
-
-      {/* Cards */}
       {cities.length > 0 && (
         <div className="grid gap-4"
           style={{ gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))" }}>
